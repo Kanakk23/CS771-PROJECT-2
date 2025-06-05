@@ -20,9 +20,9 @@ This project addresses the **continual learning** and **unsupervised domain adap
 
 ### Team Members
 - **Akshat Sharma** (230101)
-- **Praneel B Satare** (230774)  
-- **Kanak Khandelwal** (230520)
 - **Dweep Joshipura** (230395)
+- **Kanak Khandelwal** (230520)
+- **Praneel B Satare** (230774)  
 
 ---
 
@@ -143,7 +143,7 @@ Initial experiments without feature extraction showed the necessity of our appro
 ## 📁 Repository Structure
 
 ```
-continual-learning-lwp/
+CS771-Project-2/
 ├── notebooks/
 │   ├── task1_sequential_learning.ipynb    # Task 1 implementation
 │   ├── task2_domain_adaptation.ipynb      # Task 2 implementation
@@ -162,7 +162,6 @@ continual-learning-lwp/
 │       └── task2_results.json
 ├── docs/
 │   ├── report.pdf                         # LaTeX project report
-│   └── hyperparameter_analysis.md
 └── README.md
 ```
 

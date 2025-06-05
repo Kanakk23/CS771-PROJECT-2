@@ -31,9 +31,7 @@ This project addresses the **continual learning** and **unsupervised domain adap
 ### 1. **Weighted Prototype Update Rule (Task 1)**
 For sequential datasets from the same distribution, we developed a mathematically principled update mechanism:
 
-```
-μ(n+1)_c := (N·α·μ(n)_c + Σ_{y(n+1)_i = c} x(n+1)_i) / (N·α + n(n+1)_c)
-```
+\[\mu^{(n+1)}_c := \frac{N\alpha\mu^{(n)}_c + \sum\limits_{y^{(n+1)}_i = c}{x^{(n+1)}_i}}{N\alpha+n^{(n+1)}_c} \]
 
 **Key Characteristics:**
 - **α = 0.2** (optimally tuned): Balances old knowledge retention vs. new data adaptation

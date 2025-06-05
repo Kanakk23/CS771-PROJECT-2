@@ -1,4 +1,4 @@
-# Continual Learning with Learning with Prototypes (LwP)
+# Continual Learning & Unsupervised Domain Adaptation
 ## CS771 - Introduction to Machine Learning (Autumn 2024) - Mini-Project 2
 
 [![Course](https://img.shields.io/badge/Course-CS771-blue)](https://www.cse.iitk.ac.in/users/piyush/)

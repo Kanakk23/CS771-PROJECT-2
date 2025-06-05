@@ -30,9 +30,9 @@ This project addresses the **continual learning** and **unsupervised domain adap
 
 ### 1. **Weighted Prototype Update Rule (Task 1)**
 For sequential datasets from the same distribution, we developed a mathematically principled update mechanism:
-
-\[\mu^{(n+1)}_c := \frac{N\alpha\mu^{(n)}_c + \sum\limits_{y^{(n+1)}_i = c}{x^{(n+1)}_i}}{N\alpha+n^{(n+1)}_c} \]
-
+```math
+\mu^{(n+1)}_c := \frac{N\alpha\mu^{(n)}_c + \sum\limits_{y^{(n+1)}_i = c}{x^{(n+1)}_i}}{N\alpha+n^{(n+1)}_c}
+```
 **Key Characteristics:**
 - **α = 0.2** (optimally tuned): Balances old knowledge retention vs. new data adaptation
 - **Prevents catastrophic forgetting**: Maintains 98%+ accuracy across all previous datasets
@@ -41,8 +41,8 @@ For sequential datasets from the same distribution, we developed a mathematicall
 ### 2. **Clustering-Based Domain Adaptation (Task 2)**
 For datasets with distribution shifts, we introduced an unsupervised adaptation method:
 
-```
-μ(n+1)_c := (β·μ(n)_c + M(n+1)_c) / (β + 1)
+```math
+\mu^{(n+1)}_c := \frac{\beta\mu^{(n)}_c + M^{(n+1)}_c}{\beta+1} 
 ```
 
 **Novel Approach:**

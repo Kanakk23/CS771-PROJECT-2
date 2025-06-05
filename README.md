@@ -167,46 +167,11 @@ CS771-Project-2/
 
 ---
 
-## 🎬 Related Work & Inspiration
-
-This project draws inspiration from recent advances in continual learning and domain adaptation:
-
-- **Lifelong Domain Adaptation via Consolidated Internal Distribution** (NeurIPS 2021)
+## 🎬 Paper Review
+As required by the project, we presented a detailed review of the below paper in a YouTube video.
 - **Deja Vu: Continual Model Generalization for Unseen Domains** (ICLR 2023)
 
-**YouTube Presentation**: [Deja Vu: Continual Model Generalization for Unseen Domains](https://youtube.com/watch?v=your_video_link)
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-```bash
-pip install torch torchvision transformers scikit-learn numpy pandas
-```
-
-### Running the Experiments
-
-1. **Feature Extraction** (or use pre-computed features)
-   ```bash
-   python src/feature_extractor.py --data_path data/datasets/ --model beit_large
-   ```
-
-2. **Task 1: Sequential Learning**
-   ```bash
-   jupyter notebook notebooks/task1_sequential_learning.ipynb
-   ```
-
-3. **Task 2: Domain Adaptation**
-   ```bash
-   jupyter notebook notebooks/task2_domain_adaptation.ipynb
-   ```
-
-### Reproducing Results
-- Use **notebook v3** (not v4) for exact result replication
-- Pre-computed features available in `data/features/`
-- All hyperparameters are documented in the notebooks
-
+**YouTube Presentation**: [Deja Vu: Continual Model Generalization for Unseen Domains](https://youtu.be/eLPlipLRDrk?si=xx3-8AtGp1wSNU-q)
 ---
 
 ## 🔬 Technical Analysis
@@ -262,7 +227,7 @@ pip install torch torchvision transformers scikit-learn numpy pandas
 
 For questions about this implementation or the CS771 course project:
 - **Course Instructor**: [Course Website](https://www.cse.iitk.ac.in/users/piyush/)
-- **Team Contact**: [Create an issue](https://github.com/your-repo/issues)
+- **Team Contact**: [Create an issue](https://github.com/djthegr8/CS771-Project-2/issues)
 
 ---
 

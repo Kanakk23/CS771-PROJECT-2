@@ -145,19 +145,7 @@ CS771-Project-2/
 ├── notebooks/
 │   ├── task1_sequential_learning.ipynb    # Task 1 implementation
 │   ├── task2_domain_adaptation.ipynb      # Task 2 implementation
-│   └── feature_extraction.ipynb           # BEiT feature extraction
-├── src/
-│   ├── lwp_classifier.py                  # Core LwP implementation
-│   ├── prototype_updates.py               # Weighted & clustering updates
-│   ├── feature_extractor.py               # BEiT-Large wrapper
-│   └── evaluation.py                      # Accuracy computation
-├── data/
-│   ├── features/                          # Pre-computed features (.pkl)
-│   │   ├── task1_features.pkl
-│   │   └── task2_features.pkl
-│   └── results/                           # Accuracy matrices
-│       ├── task1_results.json
-│       └── task2_results.json
+│   └── feature_extraction.ipynb           # BEiT feature extraction                
 ├── docs/
 │   ├── report.pdf                         # LaTeX project report
 └── README.md

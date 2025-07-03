@@ -2,7 +2,6 @@
 ## CS771 - Introduction to Machine Learning (Autumn 2024) - Mini-Project 2
 
 [![Course](https://img.shields.io/badge/Course-CS771-blue)](https://www.cse.iitk.ac.in/users/piyush/)
-[![Problem](https://img.shields.io/badge/Problem-Continual%20Learning-green)](https://github.com/your-repo)
 [![Dataset](https://img.shields.io/badge/Dataset-CIFAR--10-orange)](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 ---
